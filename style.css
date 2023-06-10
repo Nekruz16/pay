@@ -1,0 +1,25 @@
+:root {
+  --x: -8px;
+  --y: -8px;
+}
+
+#text {
+  color: #fff;
+  font-family: 'Glory', sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-shadow:
+    calc(var(--x) * -1) calc(var(--y) * -1) 0px #ff92ee,
+    calc(var(--x) * -2) calc(var(--y) * -2) 0px #fa6cff,
+    calc(var(--x) * -3) calc(var(--y) * -3) 0px #d81dc4;
+}
+
+body {
+  align-items: center;
+  background-color: #1c0b54;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
